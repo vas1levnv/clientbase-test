@@ -32,19 +32,15 @@ export const useMainPageStore = defineStore
     function getMoreCars(page) {
         switch (page) {
             case 1:
-                console.log('page #2')
                 getData(cars2)
                 break
             case 2:
-                console.log('page #3')
                 getData(cars3)
                 break
             case 3:
-                console.log('page #4')
                 getData(cars4)
                 break
             case 4:
-                console.log('page #5')
                 getData(cars5)
                 break
             default:
